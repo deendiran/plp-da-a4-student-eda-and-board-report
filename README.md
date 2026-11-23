@@ -61,15 +61,15 @@ All outputs (charts, printed tables) are committed to the repository so reviewer
 
 ## Five Key EDA Insights
 
-1. **Attendance is the strongest predictor of academic performance** — the correlation between `attendance_rate` and `average_score` is the highest among all non-subject variables. Improving chronic absenteeism should be the first priority of the support programme.
+1. **Study hours show the strongest link with scores (r = 0.70); attendance is weaker (r = 0.36).** Both are positive associations, not proof of cause.
 
-2. **Each additional hour of study is associated with approximately 2 extra score points** — the `np.polyfit` trend line confirms a positive relationship (R² ≈ 0.14), though the effect is smaller than attendance and cannot be assumed causal.
+2. **Each extra study hour is associated with about 2.1 more points (R² = 0.50).** Half the variation is unexplained, and the unit of `study_hours` is not stated (values reach 23.3, so we read it as hours per week).
 
-3. **Private school students outscore public school students by ~6 points on average, and this gap persists across all attendance bands and study-hour quartiles** — pivot table analysis confirms the advantage is not explained by student behaviour alone, suggesting a resource or instruction quality difference.
+3. **Private schools score about 5.6 points higher (76.0 vs 70.5), and the gap holds in every attendance band and study-hour quartile.** Public schools hold 94 of the 99 At Risk learners (95%); the data cannot say why.
 
-4. **Turkana has the highest share of "At Risk" learners (scoring below 60)** — geographic targeting of the support budget toward Turkana would address the most concentrated need.
+4. **Only 8.2% of learners are At Risk, and no county stands out.** Nairobi is highest (9.2%) and Nakuru lowest (6.4%), but the difference is within chance (chi-square p = 0.92).
 
-5. **The score distribution is approximately normal with most students in the "Meeting" band (60–75)** — a focused intervention on the At Risk tail (~25% of students) could meaningfully shift the county average without requiring system-wide changes.
+5. **Scores are roughly symmetric (mean 72.0, median 71.7).** 56% of learners are Meeting, 36% Exceeding and 8% At Risk; 29 learners (2.4%) are study-hour outliers and do not drive the results.
 
 ---
 
@@ -87,7 +87,7 @@ reports/duka_board_report.png
 
 ## Board Summary
 
-## Duka Electronics earned KES 71.8 million from 1,000 orders in the first half of 2026. Nairobi brought in 36% of it, so the business leans heavily on one branch. Laptops are the engine: 58% of revenue from only 22% of orders. Revenue peaked in April at KES 13.5 million and slid to KES 10.9 million by June. Mombasa and Nakuru each earned about a quarter less in April–June than in January–March, while Nairobi, Kisumu and Eldoret grew. Online and in-store orders are worth about the same (roughly KES 71,000 each); phone orders are worth more (KES 80,000) but are only one order in ten. For the second half we recommend: a recovery plan for Mombasa and Nakuru, protecting laptop stock and promotions, and a trial of phone-order upselling. These figures cover January–June only, so April's peak may be a short swing rather than a seasonal pattern.
+Duka Electronics earned KES 71.8 million from 1,000 orders in the first half of 2026. Nairobi brought in 36% of it, so the business leans heavily on one branch. Laptops are the engine: 58% of revenue from only 22% of orders. Revenue peaked in April at KES 13.5 million and slid to KES 10.9 million by June. Mombasa and Nakuru each earned about a quarter less in April–June than in January–March, while Nairobi, Kisumu and Eldoret grew. Online and in-store orders are worth about the same (roughly KES 71,000 each); phone orders are worth more (KES 80,000) but are only one order in ten. For the second half we recommend: a recovery plan for Mombasa and Nakuru, protecting laptop stock and promotions, and a trial of phone-order upselling. These figures cover January–June only, so April's peak may be a short swing rather than a seasonal pattern.
 
 ## Repository Structure
 
