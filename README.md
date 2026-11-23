@@ -8,10 +8,10 @@
 
 This repository contains two end-to-end analyst engagements submitted as a single deliverable:
 
-| Engagement | Client | Deliverable |
-|-----------|--------|-------------|
+| Engagement                      | Client                       | Deliverable                                                                                                         |
+| ------------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **1 · County Education Office** | County Director of Education | Exploratory Data Analysis report (`student_eda.ipynb`) identifying at-risk learners and factors driving performance |
-| **2 · Duka Electronics Board** | CEO / Board members | One-page visual report (`board_report.ipynb` → `reports/duka_board_report.png`) and a live Looker Studio dashboard |
+| **2 · Duka Electronics Board**  | CEO / Board members          | One-page visual report (`board_report.ipynb` → `reports/duka_board_report.png`) and a live Looker Studio dashboard  |
 
 ---
 
@@ -50,9 +50,9 @@ jupyter lab  # opens jupyter lab in the browser
 jupyter notebook  # opens jupyter notebook in the browser
 ```
 
-| Notebook | Purpose | 
-|----------|---------|
-| `student_eda.ipynb` | Full EDA for Engagement 1 |
+| Notebook             | Purpose                                         |
+| -------------------- | ----------------------------------------------- |
+| `student_eda.ipynb`  | Full EDA for Engagement 1                       |
 | `board_report.ipynb` | Board report charts + makeover for Engagement 2 |
 
 All outputs (charts, printed tables) are committed to the repository so reviewers can open the notebooks without running them.
@@ -85,11 +85,9 @@ reports/duka_board_report.png
 
 ---
 
-## Board Summary (150 words)
+## Board Summary
 
-Duka Electronics closed H1 2026 with 1,000 orders across five branches and three sales channels. The Nairobi branch alone contributed roughly 40% of total revenue, creating a concentration risk the board should address. Laptops account for the majority of revenue despite low order volumes, confirming that high-ticket items are the profit engine. Online ordering delivers the highest average order value of the three channels and warrants accelerated investment. Monthly revenue trended upward from March to June, recovering from a February dip, suggesting Q1 seasonality that the team should plan for in 2027. Mombasa and Kisumu show proportionally higher average order values relative to their order counts, indicating untapped demand in those markets. For H2 2026, the board should approve targeted promotional campaigns in Mombasa and Kisumu, increase the digital marketing budget to grow online share, and consider a Laptop upselling programme across all branches.
-
----
+## Duka Electronics earned KES 71.8 million from 1,000 orders in the first half of 2026. Nairobi brought in 36% of it, so the business leans heavily on one branch. Laptops are the engine: 58% of revenue from only 22% of orders. Revenue peaked in April at KES 13.5 million and slid to KES 10.9 million by June. Mombasa and Nakuru each earned about a quarter less in April–June than in January–March, while Nairobi, Kisumu and Eldoret grew. Online and in-store orders are worth about the same (roughly KES 71,000 each); phone orders are worth more (KES 80,000) but are only one order in ten. For the second half we recommend: a recovery plan for Mombasa and Nakuru, protecting laptop stock and promotions, and a trial of phone-order upselling. These figures cover January–June only, so April's peak may be a short swing rather than a seasonal pattern.
 
 ## Repository Structure
 
@@ -130,4 +128,4 @@ plp-da-a4-student-eda-and-board-report/
 
 ---
 
-*Submitted by: deendiran | PLP Data Analytics Cohort | November 2026*
+_Submitted by: deendiran | PLP Data Analytics Cohort | November 2026_
